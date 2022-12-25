@@ -1,5 +1,5 @@
 {
-  "name": "micromatch",
+  "name": "@clevercanyon/micromatch",
   "description": "Glob matching for javascript/node.js. A replacement and faster alternative to minimatch and multimatch.",
   "version": "4.0.5",
   "homepage": "https://github.com/micromatch/micromatch",
@@ -21,7 +21,7 @@
     "Peter Bright <drpizza@quiscalusmexicanus.org> (https://github.com/drpizza)",
     "Kuba Juszczyk (https://github.com/ku8ar)"
   ],
-  "repository": "micromatch/micromatch",
+  "repository": "clevercanyon/micromatch",
   "bugs": {
     "url": "https://github.com/micromatch/micromatch/issues"
   },
@@ -37,8 +37,8 @@
     "test": "mocha"
   },
   "dependencies": {
-    "braces": "^3.0.2",
-    "picomatch": "^2.3.1"
+    "@clevercanyon/braces": "^3.0.2",
+    "@clevercanyon/picomatch": "^2.3.1"
   },
   "devDependencies": {
     "fill-range": "^7.0.1",
@@ -46,6 +46,9 @@
     "minimatch": "^5.0.1",
     "mocha": "^9.2.2",
     "time-require": "github:jonschlinkert/time-require"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "keywords": [
     "bash",
