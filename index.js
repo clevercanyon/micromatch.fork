@@ -1,6 +1,5 @@
 'use strict';
 
-// const util = require('util');
 const braces = require('braces');
 const picomatch = require('picomatch');
 const utils = require('picomatch/lib/utils');
