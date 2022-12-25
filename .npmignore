@@ -1,0 +1,247 @@
+##
+# NPM ignore file.
+#
+# NPM is aware of this config file's location.
+#
+# Run the following to test configuration:
+#
+#     $ npm pack --dry-run
+#
+# @note CUSTOM EDITS ONLY PLEASE!
+# @note In the future this file will be updated automatically.
+# @note Only `<custom:start.../custom:end>` will be preserved below.
+##
+
+##
+# This part follows `.gitignore` exactly.
+##
+
+# Local
+
+.#*
+.~*
+*.local
+
+# Logs
+
+*.log
+
+# Backups
+
+*~
+*.bak
+
+# Patches
+
+*.rej
+*.orig
+*.patch
+*.diff
+
+# IntelliJ
+
+.idea/
+
+# Sublime
+
+*.sublime-project
+*.sublime-workspace
+
+# Netbeans
+
+*.nbproject
+
+# VS Code
+
+.vscode/
+*.code-workspace
+
+# NPM
+
+npm-debug.log
+
+# Dists
+
+dist/
+
+# Yarn
+
+.yarn/
+
+# Vendor
+
+vendor/
+
+# NodeJS
+
+node_modules/
+
+# JSPM
+
+jspm_packages/
+
+# Bower
+
+bower_components/
+
+# TypeScript
+
+typings/
+.tscache/
+*.tsbuildinfo
+
+# Vite
+
+.vite/
+
+# Wrangler
+
+.wrangler/
+
+# Rollup
+
+.rollup/
+
+# Webpack
+
+.webpack/
+
+# Linaria
+
+.linaria-cache/
+
+# SASS
+
+.sass-cache/
+
+# Docker
+
+.docker/
+
+# Vagrant
+
+.vagrant/
+
+# Elastic Beanstalk
+
+.elasticbeanstalk/
+
+# CTAGs
+
+*.ctags
+*.tags
+
+# VCS
+
+.git/
+
+.svn/
+_svn/
+.svnignore
+
+CVS/
+.cvsignore
+
+.bzr/
+.bzrignore
+
+.hg/
+.hgignore
+
+SCCS/
+RCS/
+
+# PC Files
+
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# PC Directories
+
+$RECYCLE.BIN/
+
+# Mac Files
+
+._*
+Icon?
+!Icons
+*.icloud
+.DS_Store
+.disk_label
+.LSOverride
+.VolumeIcon.icns
+.com.apple.timemachine.*
+
+# Mac Directories
+
+.apdisk/
+*.icloud/
+.fseventsd/
+.AppleDB/
+.AppleDesktop/
+.AppleDouble/
+.Trashes/
+.TemporaryItems/
+.Spotlight-V100/
+.DocumentRevisions-V100/
+Network Trash Folder/
+Temporary Items/
+
+##
+# These are in addition to what we have in `.gitignore`.
+##
+
+# GitHub
+
+.github/
+
+# Allow Dists
+
+!dist/
+
+# Source Code
+
+dev/
+bench/
+
+doc/
+docs/
+
+test/
+tests/
+
+example/
+examples/
+
+.*
+__*
+
+*.ts
+*.tsx
+!*.d.ts
+*.jsx
+*.ejs
+*.scss
+*.less
+
+*.test.*
+*.spec.*
+*.readme.*
+
+tsconfig.*
+wrangler.*
+vite.config.*
+tailwind.config.*
+
+##
+# There are also a few items always included and/or excluded by NPM.
+# See: <https://docs.npmjs.com/cli/v9/configuring-npm/package-json#files>
+# See: <https://docs.npmjs.com/cli/v8/using-npm/developers?v=true#keeping-files-out-of-your-package>
+##
+
+##
+# Customizations
+# <custom:start>
+
+# </custom:end>
