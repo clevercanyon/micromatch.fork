@@ -1,6 +1,6 @@
 'use strict';
 
-const util = require('util');
+// const util = require('util');
 const braces = require('braces');
 const picomatch = require('picomatch');
 const utils = require('picomatch/lib/utils');
@@ -187,7 +187,7 @@ micromatch.not = (list, patterns, options = {}) => {
 
 micromatch.contains = (str, pattern, options) => {
   if (typeof str !== 'string') {
-    throw new TypeError(`Expected a string: "${util.inspect(str)}"`);
+    throw new TypeError(`Expected a string: "${JSON.stringify(str, null, 4)}"`);
   }
 
   if (Array.isArray(pattern)) {
@@ -333,7 +333,7 @@ micromatch.every = (list, patterns, options) => {
 
 micromatch.all = (str, patterns, options) => {
   if (typeof str !== 'string') {
-    throw new TypeError(`Expected a string: "${util.inspect(str)}"`);
+    throw new TypeError(`Expected a string: "${JSON.stringify(str, null, 4)}"`);
   }
 
   return [].concat(patterns).every(p => picomatch(p, options)(str));
