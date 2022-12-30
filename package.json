@@ -1,7 +1,7 @@
 {
   "private": false,
   "license": "MIT",
-  "version": "4.0.7",
+  "version": "4.0.8",
   "name": "@clevercanyon/micromatch.fork",
   "description": "Glob matching. A replacement and faster alternative to minimatch and multimatch.",
   "repository": "https://github.com/clevercanyon/micromatch.fork",
