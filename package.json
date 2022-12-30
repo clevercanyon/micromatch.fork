@@ -29,8 +29,5 @@
     "braces": "npm:@clevercanyon/braces.fork@^3.0.2",
     "picomatch": "npm:@clevercanyon/picomatch.fork@^2.3.1"
   },
-  "devDependencies": {},
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  }
+  "devDependencies": {}
 }
