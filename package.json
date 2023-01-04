@@ -1,5 +1,8 @@
 {
   "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "license": "MIT",
   "version": "4.0.8",
   "name": "@clevercanyon/micromatch.fork",
