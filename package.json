@@ -1,36 +1,81 @@
 {
-  "private": false,
-  "publishConfig": {
-    "access": "public"
-  },
-  "license": "MIT",
-  "version": "4.0.10",
-  "name": "@clevercanyon/micromatch.fork",
-  "description": "Glob matching. A replacement and faster alternative to minimatch and multimatch.",
-  "repository": "https://github.com/clevercanyon/micromatch.fork",
-  "homepage": "https://github.com/clevercanyon/micromatch.fork#readme",
-  "bugs": "https://github.com/clevercanyon/micromatch.fork/issues",
-  "funding": "https://github.com/sponsors/clevercanyon",
-  "keywords": [
-    "clevercanyon"
-  ],
-  "author": {
-    "name": "Jon Schlinkert",
-    "url": "https://github.com/jonschlinkert"
-  },
-  "contributors": [
-    {
-      "name": "Clever Canyon",
-      "url": "https://clevercanyon.com"
-    }
-  ],
-  "files": [
-    "/index.js"
-  ],
-  "main": "./index.js",
-  "unpkg": "./index.js",
-  "dependencies": {
-    "braces": "npm:@clevercanyon/braces.fork@^3.0.2",
-    "picomatch": "npm:@clevercanyon/picomatch.fork@^2.3.1"
-  }
+	"private": false,
+	"publishConfig": {
+		"access": "public"
+	},
+	"version": "4.0.11",
+	"license": "MIT",
+	"name": "@clevercanyon/micromatch.fork",
+	"description": "Glob matching. A replacement and faster alternative to minimatch and multimatch.",
+	"repository": "https://github.com/clevercanyon/micromatch.fork",
+	"homepage": "https://github.com/clevercanyon/micromatch.fork#readme",
+	"bugs": "https://github.com/clevercanyon/micromatch.fork/issues",
+	"funding": "https://github.com/sponsors/clevercanyon",
+	"keywords": ["clevercanyon"],
+	"author": {
+		"name": "Jon Schlinkert",
+		"url": "https://github.com/jonschlinkert"
+	},
+	"contributors": [
+		{
+			"name": "Clever Canyon",
+			"url": "https://clevercanyon.com"
+		}
+	],
+	"type": "commonjs",
+	"files": ["/index.js"],
+	"bin": {},
+	"imports": {},
+	"exports": [],
+	"sideEffects": [],
+	"module": "",
+	"main": "./index.js",
+	"browser": "",
+	"unpkg": "./index.js",
+	"types": "",
+	"typesVersions": {},
+	"dependencies": {
+		"braces": "npm:@clevercanyon/braces.fork@^3.0.8",
+		"picomatch": "npm:@clevercanyon/picomatch.fork@^2.3.7"
+	},
+	"peerDependencies": {},
+	"peerDependenciesMeta": {},
+	"optionalDependencies": {},
+	"bundleDependencies": [],
+	"devDependencies": {
+		"@clevercanyon/skeleton-dev-deps": "^1.0.95"
+	},
+	"overrides": {},
+	"workspaces": [],
+	"cpu": ["x64", "arm64"],
+	"os": ["darwin", "linux"],
+	"engines": {
+		"node": "^19.2.0 || ^19.4.0",
+		"npm": "^8.19.3 || ^9.2.0"
+	},
+	"config": {
+		"c10n": {
+			"&": {
+				"dotfiles": {
+					"lock": []
+				},
+				"build": {
+					"appType": "",
+					"targetEnv": ""
+				},
+				"github": {
+					"teams": {
+						"engineers": "pull",
+						"architects": "push"
+					},
+					"labels": {},
+					"configVersion": "1.0.1",
+					"envsVersion": ""
+				},
+				"npmjs": {
+					"configVersions": "1.0.1,1.0.0"
+				}
+			}
+		}
+	}
 }
