@@ -3,7 +3,7 @@
 	"publishConfig": {
 		"access": "public"
 	},
-	"version": "4.0.29",
+	"version": "4.0.30",
 	"license": "MIT",
 	"name": "@clevercanyon/micromatch.fork",
 	"description": "Glob matching. A replacement and faster alternative to minimatch and multimatch.",
@@ -35,18 +35,17 @@
 	"types": "",
 	"typesVersions": {},
 	"dependencies": {
-		"braces": "npm:@clevercanyon/braces.fork@^3.0.25",
-		"picomatch": "npm:@clevercanyon/picomatch.fork@^2.3.23"
+		"braces": "npm:@clevercanyon/braces.fork@^3.0.26",
+		"picomatch": "npm:@clevercanyon/picomatch.fork@^2.3.25"
 	},
 	"peerDependencies": {},
 	"peerDependenciesMeta": {},
 	"optionalDependencies": {},
 	"bundleDependencies": [],
 	"devDependencies": {
-		"@clevercanyon/skeleton-dev-deps": "^1.0.121"
+		"@clevercanyon/skeleton-dev-deps": "^1.0.132"
 	},
 	"overrides": {},
-	"workspaces": [],
 	"cpu": ["x64", "arm64"],
 	"os": ["darwin", "linux"],
 	"engines": {
@@ -69,11 +68,11 @@
 						"architects": "push"
 					},
 					"labels": {},
-					"configVersion": "1.0.2",
+					"configVersion": "1.0.3",
 					"envsVersion": ""
 				},
 				"npmjs": {
-					"configVersions": "1.0.2,1.0.2"
+					"configVersions": "1.0.3,1.0.3"
 				}
 			}
 		}
